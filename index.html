@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counting Valleys And Mountains</title>
+    <link rel="icon" href="assets/favicon.svg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Counting Valleys And Mountains</h1>
+
+    <div id="main">
+        <div id="problem">
+            <p>
+                Gary is an avid hiker. 
+                He tracks his hikes meticulously, paying close attention to small details like topography. 
+                During his last hike, for every step he took, he noted if it was an uphill ('U') or a downhill ('D') step. 
+                Gary's hikes start and end at sea level. 
+                We define the following terms:
+            </p>
+            <ul>
+                <li>A <i>mountain</i> is a non-empty sequence of consecutive steps <i>above</i> sea level, 
+                    <i>starting with a step up</i> from sea level and <i>ending with a step down</i> to sea level.</li>
+                <li>A <i>valley</i> is a non-empty sequence of consecutive steps <i>below</i> sea level, 
+                    <i>starting with a step down</i> from sea level and <i>ending with a step up</i> to sea level.</li>
+            </ul>
+            <p>Given Gary's sequence of up and down steps during his last hike, find and print the number of valleys he walked through.</p>
+        </div>
+        <div id="solution">
+            <div id="testcases"></div>
+            <div id="steps"></div>
+            <div id="counts"></div>
+            <div id="schema"></div>
+        </div>
+        <noscript>Javascript must be enable to run this app.</noscript>
+    </div>
+
+    <!-- Libs -->
+    <script src="js/jquery/jquery-3.6.0.min.js"></script>
+
+    <!-- Main script -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
